@@ -1,0 +1,117 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    background-color:grey;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom:20px;
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+}
+
+a{
+    margin:0 1em 0 1em;
+    padding:1em;
+    background-color:pink;
+    color:grey;
+}
+main{
+    background-color:pink;   
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-bottom:20px;
+}
+
+section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+}
+
+footer{
+    background-color:#000000;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom:20px;
+}
+
+
+
+/* media querries*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      width:100%;
+    }
+    figure{
+        text-align:center;
+    }
+    header{
+        background-color:grey;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:100%;
+    }
+    
+    nav{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    
+    a{
+        text-align:center;
+        background-color:pink;
+        color:grey;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    main{
+        background-color:pink;   
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:100%; 
+        text-align:center; 
+    }
+
+    section{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+        width:100%;
+    }
+    
+    
+    footer{
+        background-color:#000000;
+        color:white;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:100%;
+        text-align:center;
+        padding-bottom:20px;
+    }
+  }
